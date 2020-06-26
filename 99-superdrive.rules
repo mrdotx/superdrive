@@ -1,2 +1,7 @@
+# path:       /home/klassiker/.local/share/repos/superdrive/99-superdrive.rules
+# author:     klassiker [mrdotx]
+# github:     https://github.com/mrdotx/superdrive
+# date:       2020-06-26T20:35:37+0200
+
 # send bit sequence to apple superdrive
 ACTION=="add", ATTRS{idProduct}=="1500", ATTRS{idVendor}=="05ac", DRIVERS=="usb", RUN+="/usr/bin/sg_raw /dev/$kernel EA 00 00 00 00 00 01"
