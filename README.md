@@ -5,4 +5,4 @@ to use this rule, it is necessary to install `sg3-utils` if not already done so.
 
 ## install 99-superdrive.rules
 
-- copy file 99-superdrive.rules to /etc/udev/rules.d
+- cp 99-superdrive.rules /etc/udev/rules.d/99-superdrive.rules
