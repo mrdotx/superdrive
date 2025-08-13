@@ -1,7 +1,7 @@
 # path:   /home/klassiker/.local/share/repos/superdrive/99-superdrive.rules
 # author: klassiker [mrdotx]
-# github: https://github.com/mrdotx/superdrive
-# date:   2024-12-26T08:12:10+0100
+# url:    https://github.com/mrdotx/superdrive
+# date:   2025-08-13T03:23:10+0200
 
 # send bit sequence to apple superdrive
 ACTION=="add" \
